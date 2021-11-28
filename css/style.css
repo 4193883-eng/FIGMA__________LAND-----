@@ -6,6 +6,8 @@
 body{
     margin: 0;
     background-color: #181818;
+    font-family: 'Graphik';
+    color:white;
 }
 .navbar{
     background-color: #181818;
@@ -54,5 +56,69 @@ body{
     }
     .mobile_button{
         display: inline-block;
+    }
+} 
+
+/*slogan*/
+.slogancontainer{
+    display: flex;
+    flex-direction: column;
+}
+.slogan_h1{
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+}
+.slogan_slogan_p{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    max-width: 580px;
+    margin: auto;
+}
+.slogan_btns{
+    display: flex;
+    margin-top: 95px;
+    justify-content: center;
+}
+.slogan_btn{
+    display: block;
+    margin-right: 35px;
+    width: 178px;
+    color: #fff;
+    text-decoration: none;
+    height: 65px;
+    background: #4452FE;
+    text-align: center;
+    line-height: 65px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+.slogan_btn_one{
+    display: block;
+    width: 178px;
+    color: #fff;
+    text-decoration: none;
+    height: 65px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 65px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+@media (max-width:830px){
+    .slogan_btns{
+        display:block;
+        margin: auto;
+        margin-top: 67px;
+    }
+    .slogan_btn{
+        margin-right: 0px;
+        margin-bottom: 21px;
     }
 }
