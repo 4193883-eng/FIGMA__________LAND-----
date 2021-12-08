@@ -1,5 +1,5 @@
 .container{
-    max-width: 1000px;
+    max-width: 1097px;
     background-color: #181818;
     margin: auto;
 }
@@ -58,6 +58,12 @@ body{
         display: inline-block;
     }
 } 
+@media (max-width:470px){
+    .nav_logo{
+        display: block;
+        width: 120px;
+    }
+}
 
 /*slogan*/
 .slogancontainer{
@@ -154,7 +160,7 @@ body{
 }
 .contents_block{
     background-color: #FFFFFF;
-    width: 476px;
+    /* width: 476px; */
     height: 624.52px;
     border-radius: 10px;
     display: flex;
@@ -185,13 +191,11 @@ body{
 }
 .contents_img{
     display: block;
-
-
-
+    padding: 30px 20px 40px 20px;
 }
 .contents_img_second{
     display: block;
-
+    padding: 30px 20px 40px 20px;
 }
 @media (max-width:960px){
     .contents_blocks{
@@ -201,6 +205,29 @@ body{
     .contents_block{
         margin: auto;
         margin-bottom: 33px;
-        max-width: 268px;
+        max-width: 1000px;
+    }
+}
+/*galley*/
+.gallery_photos{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    min-height: 614px;
+}
+.gallery_photos > img{
+    border-radius: 15px;
+}
+@media (max-width:375px){
+    .gallery_photos>img{
+        display: block;
+        max-width: 59%;
+        margin-bottom: 33px;
+    }
+    .gallery_photos>img:last-child{
+        display: block;
+        max-width: 59%;
+        margin-bottom: 0px;
     }
 }
