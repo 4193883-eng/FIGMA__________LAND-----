@@ -231,3 +231,49 @@ body{
         margin-bottom: 0px;
     }
 }
+/*footer*/
+.footer{
+    font-family: 'Graphik';
+    color: #fff;
+    padding: 107px 0 107px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_items{
+    display: flex;
+}
+.footer_item{
+    margin-right: 9%;
+}
+.footer_title{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.footer_text{
+    list-style: none;
+    padding: 0px;
+}
+.footer_text>li{
+    margin-bottom: 19px;
+}
+.adress:before{
+    content: '';
+    display: inline-block;
+    width: 46px;
+    height: 47px;
+    transform: translateY(30%);
+    background-image: url('../img/footer/location.png');
+}
+.tele:before{
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 36px;
+    transform: translateY(30%);
+    background-image: url('../img/footer/phone.png');
+}
+.social_things{
+    max-width: 170px;
+    display: flex;
+    justify-content: space-around;
+}
