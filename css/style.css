@@ -237,7 +237,7 @@ body{
     color: #fff;
     padding: 107px 0 107px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer_items{
     display: flex;
