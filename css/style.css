@@ -231,7 +231,7 @@ body{
     .contents_block{
         margin: auto;
         margin-bottom: 33px;
-        max-width: 1000px;
+        width: 50%;
     }
 }
 /*galley*/
