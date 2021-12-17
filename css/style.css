@@ -114,7 +114,7 @@ body{
     background-color: #2638ff;
     color: #e0e0e0;
     scale: 1.1;
-    box-shadow: 38px 36px 22px -12px rgba(233, 233, 233, 0.5);
+    box-shadow: 38px 36px 22px -12px #3545f8e3;
 }
 .slogan_btn_one{
     display: block;
@@ -193,6 +193,7 @@ body{
 }
 .contents_block:hover{
     scale: 1.1;
+    box-shadow: 38px 36px 22px -12px rgba(233, 233, 233, 0.5)
 }
 .contents_p{
     color:#5C5C5C;
