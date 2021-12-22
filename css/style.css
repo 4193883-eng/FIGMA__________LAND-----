@@ -45,7 +45,7 @@ body{
     background-color: #FFFFFF;
     color: #181818;
     scale: 1.1;
-    box-shadow: 10px 10px 5px 0px rgba(233, 233, 233, 0.5);
+    box-shadow: 30px 33px 81px -24px rgba(233, 233, 233, 0.5);
 }
 .mobile_button{
     display: none;
@@ -114,7 +114,7 @@ body{
     background-color: #2638ff;
     color: #e0e0e0;
     scale: 1.1;
-    box-shadow: 10px 10px 5px 0px #3545f8c5;
+    box-shadow: 30px 33px 81px -24px #3545f8c5;
 }
 .slogan_btn_one{
     display: block;
@@ -136,7 +136,7 @@ body{
     background-color: #FFFFFF;
     color: #181818;
     scale: 1.1;
-    box-shadow: 10px 10px 5px 0px rgba(233, 233, 233, 0.5);
+    box-shadow: 30px 33px 81px -24px rgba(233, 233, 233, 0.5);
 }
 @media (max-width:830px){
     .slogan_btns{
@@ -193,7 +193,7 @@ body{
 }
 .contents_block:hover{
     scale: 1.1;
-    box-shadow: 10px 10px 5px 0px rgba(233, 233, 233, 0.5)
+    box-shadow: 30px 33px 81px -24px rgba(233, 233, 233, 0.5)
 }
 .contents_p{
     color:#5C5C5C;
